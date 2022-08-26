@@ -1,0 +1,108 @@
+title = 'Sotirios Roussis 🤘'
+baseURL = 'https://xtonousou.com/'
+copyright = "© 2022 xtonousou"
+enableRobotsTXT = true
+
+theme = 'risotto'
+paginate = 3
+enableInlineShortcodes = true
+
+languageCode = 'en'
+DefaultContentLanguage = 'en'
+
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ['error-remote-getjson']
+
+# Automatically add content sections to main menu
+sectionPagesMenu = 'main'
+
+[params]
+
+[params.theme]
+palette = "gruvbox-dark"
+mode = "dark-mode"
+
+# Sidebar: about/bio
+[params.about]
+title = ":(){ :|:& };:"
+description = "Systems, Software, DevOps, Cyber Security"
+logo = "images/tux.svg"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 5 <https://fontawesome.com/> ('fas fa-' or 'fab-fa' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
+icon = "fas fa-envelope"
+title = "mail"
+url = "mailto:root@xtonousou.com"
+
+[[params.socialLinks]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/xtonousou"
+
+[[params.socialLinks]]
+icon = "fab fa-github"
+title = "github"
+url = "https://github.com/xtonousou"
+
+[[params.socialLinks]]
+icon = "fas fa-box-open"
+title = "hackthebox"
+url = "https://www.hackthebox.eu/profile/193038"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
