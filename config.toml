@@ -27,7 +27,7 @@ mode = "dark-mode"
 [params.about]
 title = ":(){ :|:& };:"
 description = "Systems, Software, DevOps, Cyber Security"
-logo = "images/tux.svg"
+logo = "media/tux.svg"
 
 # Sidebar: social links
 # Available icon sets:
