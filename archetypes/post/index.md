@@ -4,9 +4,10 @@ date = {{ .Date }}
 title = ""
 description = ""
 slug = ""
-authors = "Sotirios Roussis"
+authors = ["Sotirios Roussis"]
 tags = []
 categories = []
 externalLink = ""
 series = []
 +++
+

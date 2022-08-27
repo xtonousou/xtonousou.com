@@ -2,6 +2,11 @@
 draft = true
 date = {{ .Date }}
 title = ""
-slug = "" 
+description = ""
+slug = ""
+authors = ["Sotirios Roussis"]
+tags = []
+categories = []
+externalLink = ""
+series = []
 +++
-
