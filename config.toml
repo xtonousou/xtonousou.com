@@ -66,9 +66,7 @@ url = "https://www.hackthebox.eu/profile/193038"
 
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+blog = "blog"
 
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
