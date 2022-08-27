@@ -7,5 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 xtonousou</copyright><atom:link href="https://xtonousou.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>index</title>
+      <link>https://xtonousou.com/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xtonousou.com/tags/index/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
