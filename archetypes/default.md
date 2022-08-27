@@ -1,7 +1,7 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
-author: "Sotirios Roussis"
-tags: ["post", "blog-post", "blog"]
----
++++ 
+draft = true
+date = {{ .Date }}
+title = ""
+slug = "" 
++++
+
